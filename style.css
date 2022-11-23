@@ -671,6 +671,15 @@ footer {
     background-color: #003564;
   }
 
+  .menu li{
+    border: 2px solid #fff;
+    margin-bottom:10px;
+  }
+
+  .non-bdr{
+    border: none !important;
+
+  }
   .menu {
     display: block;
     padding: 10px;
@@ -679,9 +688,10 @@ footer {
   .ham_burg_menu {
     float: right;
 
-    /* margin-left: 89%; */
-    right: 0;
     background-color: #003564;
+    border: none;
+    padding-right: 10px;
+  
   }
   .ham_burg_menu img{
 
