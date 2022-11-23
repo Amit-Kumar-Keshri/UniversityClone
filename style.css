@@ -100,7 +100,6 @@
   top: 10%;
   margin-top: 5%;
   margin-left: 4%;
- 
 }
 .head-name span {
   display: block;
@@ -189,140 +188,139 @@
   font-size: 40px;
 }
 
-.explore-btn{
-    position: absolute;
-    right: 4%;
-    bottom: 5%;
-    background-color: transparent;
-    padding: 12px 40px;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 1.3rem;
-    font-weight: 600;
+.explore-btn {
+  position: absolute;
+  right: 4%;
+  bottom: 5%;
+  background-color: transparent;
+  padding: 12px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
-.explore-btn::after{
-    content: '';
-    
-    background: url('img/readmore.png');
-    background-size: contain;
-    width: 24px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 10px;
-    top: 15px;
+.explore-btn::after {
+  content: "";
+
+  background: url("img/readmore.png") no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 /********Finance container********/
 
-.finance{
-    display: flex;
-    margin-bottom: 2%;
-    color: #fff;
-    position: relative;
+.finance {
+  display: flex;
+  margin-bottom: 2%;
+  color: #fff;
+  position: relative;
 }
 
-.finance-img{
-    background: url('img/sec2bg.jpg') no-repeat;
-    /* filter: brightness(0.8); */
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 60vh;
-    position: relative;
+.finance-img {
+  background: url("img/sec2bg.jpg") no-repeat;
+  /* filter: brightness(0.8); */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 60vh;
+  position: relative;
 }
-.finance-event{
-    background-color: #003564;
-    
-    text-align: center;
-    padding-top: 20px;
-}
- .finance-date{
-    display: flex;
-    text-align: center;
-    padding: 20px ;
-    
- }
+.finance-event {
+  background-color: #003564;
 
- .finance-date h2{
-    border: 2px solid #fff;
-    padding: 10px 15px;
- }
-.finance-date p{
-    margin-top: 21px;
+  text-align: center;
+  padding-top: 20px;
 }
-.finance-event-btn{
-    background-color: transparent;
-    padding: 10px 40px;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    position: relative;
-}
-.finance-event-btn:after{
-    content: '';
-    background: url('img/readmore.png') no-repeat;
-    background-size: contain;
-    width: 18px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 12px;
-    top: 13px;
+.finance-date {
+  display: flex;
+  text-align: center;
+  padding: 20px;
 }
 
-.finance-img-ctn{
-    width: 32%;
-    position: absolute;
-    bottom: 18%;
-    right: 6%;
-    line-height: 25px;
+.finance-date h2 {
+  border: 2px solid #fff;
+  padding: 10px 15px;
+}
+.finance-date p {
+  margin-top: 21px;
+}
+.finance-event-btn {
+  background-color: transparent;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  position: relative;
+}
+.finance-event-btn:after {
+  content: "";
+  background: url("img/readmore.png") no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 13px;
 }
 
-.finance-img-btn{
-    margin-top: 35px;
-    background-color: transparent;
-    padding: 15px 65px;
-    border: 2px solid #fff;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: 600;
-    position: relative;
-}
-.finance-img-btn:after{
-    content: '';
-    background: url('img/readmore.png') no-repeat;
-    background-size: contain;
-    width: 18px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 27px;
-    top: 18px;
+.finance-img-ctn {
+  width: 32%;
+  position: absolute;
+  bottom: 18%;
+  right: 6%;
+  line-height: 25px;
 }
 
-.finance-content h1{
-    margin: 40px 0 0 60px;
-    font-size: 48px;
-    font-weight: 700;
+.finance-img-btn {
+  margin-top: 35px;
+  background-color: transparent;
+  padding: 15px 65px;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  position: relative;
+}
+.finance-img-btn:after {
+  content: "";
+  background: url("img/readmore.png") no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 27px;
+  top: 18px;
+}
+
+.finance-content h1 {
+  margin: 40px 0 0 60px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 /********Rome container********/
 
-.rome{
+.rome {
   display: flex;
   margin: 0 3%;
   margin-bottom: 3%;
-  background-color: black;
+  /* background-color: black; */
   /* object-fit: cover;  */
 }
-.rome-left{
+.rome-left {
   position: relative;
   overflow: hidden;
   object-fit: cover;
 }
-.rome-color{
+.rome-color {
   background-color: rgba(0, 54, 98, 0.8);
   width: 30%;
   height: 100%;
@@ -332,58 +330,53 @@
   text-align: justify;
   padding: 20px 50px;
 }
-.rome-color h1{
+.rome-color h1 {
   font-size: 45px;
 }
-.rome img{
+.rome img {
   background-size: cover;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.rome-2nd{
+.rome-2nd {
   display: flex;
   object-fit: cover;
 }
 
-
-.rome-mid2{
+.rome-mid2 {
   display: flex;
   text-align: center;
   background-color: #003564;
   color: #fff;
   min-height: 30%;
   overflow: hidden;
-   
 }
 
-.rome-mid2-ctn1{
+.rome-mid2-ctn1 {
   color: #003564;
   background-color: #ffb45b;
   width: 50%;
   padding: 10% 4%;
-  
 }
-.rome-mid2-ctn2{
+.rome-mid2-ctn2 {
   width: 50%;
   padding: 10% 4%;
 }
-.rome-mid2 h1{
+.rome-mid2 h1 {
   font-size: 35px;
 }
-.rome-mid2 p{
+.rome-mid2 p {
   font-size: 16px;
 }
 
-
 /********Cards container********/
-.cards-container{
+.cards-container {
   margin-bottom: 3%;
 }
 
-.card-heading{
-
+.card-heading {
   color: #003564;
   font-size: 28px;
   padding: 0 3%;
@@ -392,85 +385,88 @@
   justify-content: space-between;
 }
 .card-heading button {
-    left: 0;
-    top: 0;
-    padding: 10px 30px;
-    border: 2px solid #003564;
-    background-color: transparent;
-    position: relative;
+  left: 0;
+  top: 0;
+  padding: 10px 30px;
+  border: 2px solid #003564;
+  background-color: transparent;
+  position: relative;
 }
-.card-heading button::after{
-    content: '';
-    background: url('img/readmore_blue.png') no-repeat;
-    background-size: contain;
-    width: 16px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 8px;
-    top: 12px;
+.card-heading button::after {
+  content: "";
+  background: url("img/readmore_blue.png") no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 8px;
+  top: 12px;
 }
 
-.cards{
+.cards {
   display: flex;
   margin: 0 30px;
 }
 
-.card{
+.card {
   /* border: 2px solid grey; */
-  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3)!important;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3) !important;
   margin: 15px;
   /* height: 100%; */
   width: 100%;
 }
-.card1{
+.card1 {
   display: flex;
+  justify-content: space-evenly;
+
 }
-.card2{
+.card2 {
   display: flex;
+  justify-content: space-evenly;
 }
-.card img{
+.card img {
   object-fit: cover;
   width: 100%;
 }
-.card-body{
+.card-body {
   padding: 40px 30px;
 }
-.card-body h1{
+.card-body h1 {
   color: #003564;
 }
 /********Global container********/
 
-.global{
-  background: url('img/sec4_bg.jpg') no-repeat;
+.global {
+  background: url("img/sec4_bg.jpg") no-repeat;
   background-size: 100%;
   height: 67vh;
   margin-bottom: 3%;
   position: relative;
 }
-.banners{
-    position: absolute;
-    width: 100%;
-    height: 67vh;
-    background: rgba(10, 4, 5, 0.6);
+.banners {
+  position: absolute;
+  width: 100%;
+  height: 67vh;
+  background: rgba(10, 4, 5, 0.6);
 }
-.global-ctn{
+.global-ctn {
   color: #fff;
   position: absolute;
   width: 40%;
   top: 28%;
   left: 8%;
 }
-.global-ctn p:nth-child(1){
+.global-ctn p:nth-child(1) {
   font-size: 28px;
 }
-.global-ctn p:nth-child(2){
+.global-ctn p:nth-child(2) {
   margin-top: 10%;
   font-size: 20px;
   font-weight: 600;
 }
 
-.global-ctn button{
+.global-ctn button {
   margin-top: 8%;
   padding: 10px 40px;
   background-color: transparent;
@@ -480,54 +476,53 @@
   position: relative;
 }
 
-.global-ctn button::after{
-    content: '';
-    background: url('img/readmore.png') no-repeat;
-    background-size: contain;
-    width: 16px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
+.global-ctn button::after {
+  content: "";
+  background: url("img/readmore.png") no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 15px;
 }
 
 /********Spotlight container********/
-.spotlight-container{
+.spotlight-container {
   margin: 0 5%;
 }
-.spotlight-card{
+.spotlight-card {
   display: flex;
   margin-bottom: 3%;
 }
 
-.spot11{
+.spot11 {
   margin-left: 10%;
   position: relative;
   left: 10%;
 }
-.spot{
+.spot {
   display: flex;
   position: relative;
   margin-left: 2%;
   /* overflow: hidden; */
 }
-.spot h1{
+.spot h1 {
   padding-bottom: 12px;
 }
-.spot-ctn-dif{
+.spot-ctn-dif {
   width: 40%;
   background-color: #003564;
-  
+
   color: #fff;
-  
+
   height: 305px;
   text-align: justify;
   padding: 25px 40px 0 25px;
-
 }
 
-.spot-ctn{
+.spot-ctn {
   width: 73%;
   background-color: #003564;
   position: absolute;
@@ -538,7 +533,7 @@
   padding: 25px 40px 0 25px;
 }
 
-.spot-ctn-ylw{
+.spot-ctn-ylw {
   width: 73%;
 
   color: #003564;
@@ -550,11 +545,11 @@
   padding: 25px 25px 0 25px;
 }
 
-.spot1{
+.spot1 {
   padding: 60px 10px;
   color: #003564;
 }
-.spot1 button{
+.spot1 button {
   margin-top: 20px;
   color: #003564;
   padding: 8px 15px;
@@ -564,22 +559,22 @@
   position: relative;
 }
 
-.spot1 button::after{
-    content: '';
-    background: url('img/readmore_blue.png') no-repeat;
-    background-size: contain;
-    width: 12px;
-    height: 24px;
-    display: inline-block;
-    position: absolute;
-    right: 5px;
-    top: 12px;
+.spot1 button::after {
+  content: "";
+  background: url("img/readmore_blue.png") no-repeat;
+  background-size: contain;
+  width: 12px;
+  height: 24px;
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 12px;
 }
 
 /*****about-container*****/
 
-.rome-imgg{
-  background: url('img/sec6_bg.jpg') no-repeat;
+.rome-imgg {
+  background: url("img/sec6_bg.jpg") no-repeat;
   background-size: 100% 100%;
   width: auto;
   height: 88vh;
@@ -592,13 +587,13 @@
   position: relative;
 }
 
-.rome-imgg h1{
+.rome-imgg h1 {
   position: absolute;
   top: 5%;
 }
 
 /*******Footer*******/
-.social-icon{
+.social-icon {
   display: flex;
   justify-content: space-between;
   background-color: #f4f4f4;
@@ -606,74 +601,347 @@
 }
 
 .social-icon img {
-    padding-right: 18px;
+  padding-right: 18px;
 }
 
 /*******About Section*******/
 
-.abouts{
+.abouts {
   display: flex;
   justify-content: space-evenly;
 }
-.abouts a{
+.abouts a {
   text-decoration: none;
   color: #5a5b5b;
 }
-.ctn1{
-  display: flex;
-  justify-content: space-evenly;
-
-}
-.ctn2{
+.ctn1 {
   display: flex;
   justify-content: space-evenly;
 }
-.footer-btn{
+.ctn2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-btn {
   padding: 40px 50px;
 }
 
-
-.footer-btn button:nth-child(1){
+.footer-btn button:nth-child(1) {
   display: block;
   padding: 10px 40px;
   background-color: transparent;
   border: 4px solid #5a5b5b;
   margin-bottom: 10px;
 }
-.footer-btn button:nth-child(2){
+.footer-btn button:nth-child(2) {
   display: block;
   padding: 10px 44px;
   background-color: transparent;
   border: 4px solid #5a5b5b;
   margin-bottom: 10px;
-
 }
-.footer-btn button:nth-child(3){
+.footer-btn button:nth-child(3) {
   display: block;
   padding: 10px 26px;
   background-color: transparent;
   border: 4px solid #5a5b5b;
 }
 
-.ctns{
+.ctns {
   padding: 30px 40px;
 }
 
-.p-head{
+.p-head {
   font-size: 20px;
   font-weight: 700;
 }
 /**********Footer**********/
-footer{
+footer {
   display: flex;
   background-color: #003564;
   color: #fff;
 }
-.fimg, .fctn{
+.fimg,
+.fctn {
   padding: 30px 0 30px 70px;
 }
 
+@media (max-width: 600px) {
+  .header {
+    background-color: #003564;
+  }
 
-@media only screen and (max-width:600px) {
-  
+  .menu {
+    display: block;
+    padding: 10px;
+    margin: 15% 0;
+  }
+  .ham_burg_menu {
+    float: right;
+
+    /* margin-left: 89%; */
+    right: 0;
+    background-color: #003564;
+  }
+  .header_left {
+    display: block;
+    float: right;
+    padding: 0 60px;
+  }
+  .header_right {
+    display: block;
+    float: right;
+  }
+  .head-btn {
+    display: block;
+    padding: 9px 38px;
+    margin-bottom: 10%;
+  }
+
+  .home-nav {
+    /* float: right; */
+    font-size: 15px;
+    margin: 3% 0% 0 0;
+  }
+  .home-name {
+    display: inline-block;
+    top: 10%;
+    margin-top: 11%;
+    margin-left: 16%;
+  }
+  .home-name img {
+    width: 80%;
+  }
+  .home-text-icon h1 {
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 27px;
+  }
+
+  .home-icon {
+    margin-top: 50%;
+    margin-left: 2%;
+  }
+  .home-bottom {
+    left: 23%;
+  }
+  .explore-container {
+    background: url(img/sec1_bg_mobile.png) no-repeat;
+    margin: 0;
+  }
+  .explore-box {
+    display: block;
+    width: auto;
+    height: 150px;
+    z-index: 1;
+    bottom: 0;
+    margin: 0;
+    top: 100%;
+  }
+  .explore-card {
+    display: block;
+    /* z-index: 1; */
+  }
+  .explore {
+    /* position: absolute; */
+    top: 90%;
+    left: 0%;
+  }
+  .explore h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .explore-btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+  .explore-btn::after {
+    content: "";
+    width: 20px;
+    right: 8px;
+    top: 13px;
+  }
+
+  .finance {
+    display: block;
+    margin-bottom: 0%;
+    margin-top: 106%;
+  }
+  .finance-content {
+    padding-top: 10%;
+  }
+  .finance-event-btn {
+    margin-bottom: 4%;
+  }
+  .finance-img-ctn {
+    width: 66%;
+
+    bottom: 7%;
+    right: 16%;
+    line-height: 25px;
+  }
+  .finance-img-btn {
+    padding: 10px 40px;
+  }
+  .finance-img-btn:after {
+    right: 11px;
+    top: 12px;
+  }
+  .finance-content h1 {
+    margin: 0 0 0 40px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .finance-date p {
+    margin-top: 18px;
+    padding: 10px;
+}
+  .rome {
+    display: block;
+    margin: 0;
+  }
+  .rome-2nd {
+    visibility: hidden;
+    position: absolute;
+  }
+  .rome-mid-ctn,
+  .rome-right-ctn,
+  .rome-right {
+    visibility: hidden;
+  }
+  .rome-left {
+    width: 100%;
+  }
+  .rome-color {
+    height: 90%;
+    font-size: 18px;
+  }
+  .rome-color h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .card-heading {
+    font-size: 17px;
+    padding: 5% 3%;
+  }
+
+  .card-heading button {
+    padding: 10px 21px;
+  }
+  .card-heading button::after {
+    width: 14px;
+    right: 4px;
+    top: 13px;
+  }
+
+  .cards {
+    display: block;
+    margin: 0 16px;
+  }
+
+  .global {
+    background: url(img/sec4_bg_mob_backup.png) no-repeat;
+    background-size: 100%;
+    height: 45vh;
+    margin-bottom: 3%;
+    position: relative;
+  }
+  .banners {
+    visibility: hidden;
+  }
+  .global-ctn {
+    color: #fff;
+    position: absolute;
+    width: 50%;
+    /* top: 28%; */
+    /* left: 8%; */
+  }
+  .global-ctn p:nth-child(1) {
+    font-size: 15px;
+  }
+  .global-ctn p:nth-child(2) {
+    font-size: 15px;
+  }
+  .global-ctn p:nth-child(3) {
+    font-size: 13px;
+  }
+  .global-ctn button {
+    padding: 10px 32px;
+    font-size: 13px;
+  }
+  .global-ctn button::after {
+    right: 8px;
+    top: 11px;
+  }
+
+  .spotlight-card {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.spotlight-container {
+    margin: 0 5%;
+    align-items: center;
+    object-fit: contain ;
+
+}
+.spot1 {
+    text-align: center;
+  font-size: 32px;
+}
+.spot1 button::after {
+    right: 1px;
+    top: 11px;
+}
+  .spot{
+    justify-content: center;
+    margin: 0%;
+  }
+  .spot img{
+    width: 100%;
+    object-fit: contain ;
+  }
+  .spot-ctn-dif {
+    width: 50%;
+    height: 213px;
+}
+.spot-ctn-ylw {
+    width: 50%;
+    position: unset;
+    height: 221px;
+}
+.spot-ctn {
+    width: 50%;
+    position: unset;
+    height: 213px;
+
+}
+
+.rome-imgg {
+
+    font-size: 18px;
+    padding-top: 0;
+
+}
+.about-ctn{
+  margin-top: 38%;
+  padding: 0;
+}
+
+.social-icon{
+ 
+  padding: 10px;
+}
+
+.abouts{
+  display: block;
+}
+.footer-btn{
+  padding: 40px 122px;
+}
+.fimg, .fctn {
+    padding: 30px 0 30px 15px;
+    line-height: 26px;
+}
 }
