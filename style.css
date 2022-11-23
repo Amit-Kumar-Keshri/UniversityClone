@@ -683,6 +683,10 @@ footer {
     right: 0;
     background-color: #003564;
   }
+  .ham_burg_menu img{
+
+    height: 48px;
+  }
   .header_left {
     display: block;
     float: right;
@@ -720,6 +724,7 @@ footer {
 
   .home-icon {
     margin-top: 50%;
+    width: 22%;
     margin-left: 2%;
   }
   .home-bottom {
@@ -727,6 +732,7 @@ footer {
   }
   .explore-container {
     background: url(img/sec1_bg_mobile.png) no-repeat;
+    background-size: auto 100%;
     margin: 0;
   }
   .explore-box {
@@ -887,16 +893,20 @@ footer {
 
 }
 .spot1 {
-    text-align: center;
+  text-align: center;
   font-size: 32px;
 }
+.spot1 button {
+    padding: 12px 24px;
+}
 .spot1 button::after {
-    right: 1px;
-    top: 11px;
+    right: 7px;
+    top: 15px;
 }
   .spot{
     justify-content: center;
     margin: 0%;
+    width: 100%;
   }
   .spot img{
     width: 100%;
@@ -905,29 +915,35 @@ footer {
   .spot-ctn-dif {
     width: 50%;
     height: 213px;
+    overflow-y: hidden;
 }
 .spot-ctn-ylw {
     width: 50%;
     position: unset;
     height: 221px;
+    overflow-y: hidden;
 }
 .spot-ctn {
     width: 50%;
     position: unset;
     height: 213px;
+    overflow-y: hidden;
 
 }
 
 .rome-imgg {
 
     font-size: 18px;
+    background-size: 100% auto;
+    height: 39vh;
     padding-top: 0;
 
 }
 .about-ctn{
-  margin-top: 38%;
+  margin-top: 18%;
   padding: 0;
 }
+
 
 .social-icon{
  
