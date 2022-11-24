@@ -314,6 +314,20 @@
   margin-bottom: 3%;
   /* background-color: black; */
   /* object-fit: cover;  */
+  position: relative;
+}
+
+.prev{
+  position: absolute;
+  width: 38px !important;
+  left: -3%;
+  top: 45%;
+}
+.next{
+  position: absolute;
+  width: 38px !important;
+  right: -3%;
+  top: 45%;
 }
 .rome-left {
   position: relative;
@@ -338,10 +352,15 @@
   display: block;
   background-size: cover;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
+.rome-mid1{
+  position: relative;
+}
+.rome-right1{
+  position: relative;
 
+}
 .rome-2nd {
   display: flex;
   object-fit: cover;
@@ -367,10 +386,30 @@
   padding: 10% 4%;
 }
 .rome-mid2 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 .rome-mid2 p {
   font-size: 16px;
+}
+
+.rome-read1{
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 40px !important;
+  
+}
+.rome-read2{
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 40px !important;
+}
+.rome-read3{
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 40px !important;
 }
 
 /********Cards container********/
@@ -429,6 +468,7 @@
 .card img {
   object-fit: cover;
   width: 100%;
+  display: block;
 }
 .card-body {
   padding: 40px 30px;
@@ -603,6 +643,7 @@
 }
 
 .social-icon img {
+  
   padding-right: 18px;
 }
 
