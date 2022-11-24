@@ -419,7 +419,6 @@
 .card1 {
   display: flex;
   justify-content: space-evenly;
-
 }
 .card2 {
   display: flex;
@@ -458,7 +457,7 @@
   left: 8%;
 }
 .global-ctn p:nth-child(1) {
-  font-size: 28px;
+  font-size: 24px;
 }
 .global-ctn p:nth-child(2) {
   margin-top: 10%;
@@ -489,73 +488,72 @@
 }
 
 /********Spotlight container********/
-.spotlight-container {
+/* .spotlight-container {
   margin: 0 5%;
-}
+} */
 .spotlight-card {
   display: flex;
   margin-bottom: 3%;
+  justify-content: space-evenly;
+}
+.spot1 {
+  width: 170px;
+  height: 230px;
+  color: #003564;
+  padding: 10px 0px;
 }
 
-.spot11 {
-  margin-left: 10%;
-  position: relative;
-  left: 10%;
-}
 .spot {
   display: flex;
   position: relative;
-  margin-left: 2%;
-  /* overflow: hidden; */
 }
-.spot h1 {
-  padding-bottom: 12px;
+
+.spotlight-card img {
+  width: 250px;
+  height: 250px;
+}
+
+.spotlight-card h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.spotlight-card p {
+  margin-top: 20px;
 }
 .spot-ctn-dif {
-  width: 40%;
   background-color: #003564;
-
-  color: #fff;
-
-  height: 305px;
-  text-align: justify;
-  padding: 25px 40px 0 25px;
-}
-
-.spot-ctn {
-  width: 73%;
-  background-color: #003564;
-  position: absolute;
-  color: #fff;
-  left: 12%;
-  height: 305px;
-  text-align: justify;
-  padding: 25px 40px 0 25px;
+  color: #f4f4f4;
+  width: 220px;
+  height: 230px;
+  padding: 10px 15px;
 }
 
 .spot-ctn-ylw {
-  width: 73%;
-
-  color: #003564;
   background-color: #ffb45b;
+  width: 220px;
+  height: 230px;
+  padding: 10px 15px;
   position: absolute;
-  left: 12%;
-  height: 305px;
-  text-align: justify;
-  padding: 25px 25px 0 25px;
+  left: 15%;
 }
 
-.spot1 {
-  padding: 60px 10px;
-  color: #003564;
+.spot-ctn {
+  background-color: #003564;
+  color: #f4f4f4;
+  width: 220px;
+  height: 230px;
+  padding: 10px 15px;
+  position: absolute;
+  left: 15%;
 }
+
 .spot1 button {
-  margin-top: 20px;
-  color: #003564;
-  padding: 8px 15px;
+  width: auto;
+  padding: 14px 26px;
   background-color: transparent;
   border: 2px solid #003564;
-  /* font-size: 14px; */
+  color: #003564;
   position: relative;
 }
 
@@ -567,8 +565,8 @@
   height: 24px;
   display: inline-block;
   position: absolute;
-  right: 5px;
-  top: 12px;
+  right: 10px;
+  top: 18px;
 }
 
 /*****about-container*****/
@@ -666,19 +664,18 @@ footer {
   padding: 30px 0 30px 70px;
 }
 
-@media (max-width: 600px) {
+@media (min-width:400px) and (max-width: 600px) {
   .header {
     background-color: #003564;
   }
 
-  .menu li{
+  .menu li {
     border: 2px solid #fff;
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
 
-  .non-bdr{
+  .non-bdr {
     border: none !important;
-
   }
   .menu {
     display: block;
@@ -691,10 +688,8 @@ footer {
     background-color: #003564;
     border: none;
     padding-right: 10px;
-  
   }
-  .ham_burg_menu img{
-
+  .ham_burg_menu img {
     height: 48px;
   }
   .header_left {
@@ -741,7 +736,7 @@ footer {
     left: 23%;
   }
   .explore-container {
-    background: url(img/sec1_bg_mobile.png) no-repeat;
+    background: url("img/sec1_bg_mobile.png") no-repeat;
     background-size: auto 100%;
     margin: 0;
   }
@@ -811,7 +806,7 @@ footer {
   .finance-date p {
     margin-top: 18px;
     padding: 10px;
-}
+  }
   .rome {
     display: block;
     margin: 0;
@@ -869,12 +864,12 @@ footer {
   .global-ctn {
     color: #fff;
     position: absolute;
-    width: 50%;
-    /* top: 28%; */
+    width: 60%;
+    top: 15%;
     /* left: 8%; */
   }
   .global-ctn p:nth-child(1) {
-    font-size: 15px;
+    font-size: 14px;
   }
   .global-ctn p:nth-child(2) {
     font-size: 15px;
@@ -894,80 +889,82 @@ footer {
   .spotlight-card {
     display: block;
     margin-bottom: 3%;
-}
+  }
 
-.spotlight-container {
-    margin: 0 5%;
+  .spotlight-container {
+    margin: 0 3%;
     align-items: center;
-    object-fit: contain ;
-
-}
-.spot1 {
-  text-align: center;
-  font-size: 32px;
-}
-.spot1 button {
+  }
+  .spot1 {
+    width: auto;
+    height: 150px;
+    text-align: center;
+    font-size: 32px;
+  }
+  .spot1 button {
     padding: 12px 24px;
-}
-.spot1 button::after {
+  }
+  .spot1 button::after {
     right: 7px;
     top: 15px;
+  }
+
+  .spotlight-card p {
+    margin-top: 0px;
 }
-  .spot{
+  .spot {
     justify-content: center;
     margin: 0%;
     width: 100%;
   }
-  .spot img{
-    width: 100%;
-    object-fit: contain ;
+  .spot img {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
   }
   .spot-ctn-dif {
-    width: 50%;
-    height: 213px;
-    overflow-y: hidden;
-}
-.spot-ctn-ylw {
-    width: 50%;
     position: unset;
-    height: 221px;
-    overflow-y: hidden;
-}
-.spot-ctn {
-    width: 50%;
+    width: 200px;
+    height: 180px;
+    padding: 10px 15px;
+  }
+  .spot-ctn-ylw {
     position: unset;
-    height: 213px;
-    overflow-y: hidden;
+    width: 200px;
+    height: 180px;
+    padding: 10px 15px;
+  }
+  .spot-ctn {
+    position: unset;
+    width: 200px;
+    height: 180px;
+    padding: 10px 15px;
+  }
 
-}
-
-.rome-imgg {
-
+  .rome-imgg {
     font-size: 18px;
     background-size: 100% auto;
     height: 39vh;
     padding-top: 0;
+  }
+  .about-ctn {
+    margin-top: 18%;
+    padding: 0;
+  }
 
-}
-.about-ctn{
-  margin-top: 18%;
-  padding: 0;
-}
+  .social-icon {
+    padding: 10px;
+  }
 
-
-.social-icon{
- 
-  padding: 10px;
-}
-
-.abouts{
-  display: block;
-}
-.footer-btn{
-  padding: 40px 122px;
-}
-.fimg, .fctn {
+  .abouts {
+    display: block;
+  }
+  .footer-btn {
+    padding: 40px 122px;
+  }
+  .fimg,
+  .fctn {
     padding: 30px 0 30px 15px;
     line-height: 26px;
-}
+  }
 }
