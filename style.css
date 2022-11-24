@@ -492,9 +492,11 @@
   margin: 0 5%;
 } */
 .spotlight-card {
-  display: flex;
-  margin-bottom: 3%;
-  justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 3%;
+    /* gap: 0%; */
+    justify-content: space-evenly;
+    margin: 0 3% 3% 0%;
 }
 .spot1 {
   width: 170px;
@@ -916,6 +918,7 @@ footer {
     justify-content: center;
     margin: 0%;
     width: 100%;
+    margin-bottom: 3%;
   }
   .spot img {
     background-size: cover;
