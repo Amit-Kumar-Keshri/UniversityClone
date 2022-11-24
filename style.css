@@ -331,9 +331,11 @@
   padding: 20px 50px;
 }
 .rome-color h1 {
-  font-size: 45px;
+  font-size: 50px;
+  margin-bottom: 25px;
 }
 .rome img {
+  display: block;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -350,7 +352,7 @@
   text-align: center;
   background-color: #003564;
   color: #fff;
-  min-height: 30%;
+  height: 31%;
   overflow: hidden;
 }
 
@@ -365,7 +367,7 @@
   padding: 10% 4%;
 }
 .rome-mid2 h1 {
-  font-size: 35px;
+  font-size: 40px;
 }
 .rome-mid2 p {
   font-size: 16px;
