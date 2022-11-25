@@ -380,11 +380,11 @@
   color: #003564;
   background-color: #ffb45b;
   width: 50%;
-  padding: 10% 4%;
+  padding: 8% 4%;
 }
 .rome-mid2-ctn2 {
   width: 50%;
-  padding: 10% 4%;
+  padding: 7% 4%;
 }
 .rome-mid2 h1 {
   font-size: 50px;
@@ -396,7 +396,7 @@
 .rome-read1 {
   position: absolute;
   right: 2%;
-  bottom: 5%;
+  bottom: 9%;
   width: 40px !important;
 }
 .rome-read2 {
@@ -872,7 +872,7 @@ footer {
     width: 100%;
   }
   .rome-color {
-    height: 90%;
+    height: 100%;
     font-size: 18px;
   }
   .rome-color h1 {
