@@ -800,18 +800,18 @@ button.ham_burg_menu.active:after {
     left: 0%;
   }
   .explore h1 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .explore-btn {
-    padding: 12px 30px;
+    padding: 12px 18px;
     font-size: 1rem;
   }
   .explore-btn::after {
     content: "";
-    width: 20px;
-    right: 8px;
-    top: 13px;
+    width: 16px;
+    right: 2px;
+    top: 15px;
   }
 
   .finance {
@@ -837,7 +837,7 @@ button.ham_burg_menu.active:after {
   }
   .finance-img-btn:after {
     right: 11px;
-    top: 12px;
+    top: 25px;
   }
   .finance-content h1 {
     margin: 0 0 0 40px;
@@ -874,17 +874,17 @@ button.ham_burg_menu.active:after {
   }
 
   .card-heading {
-    font-size: 17px;
+    font-size: 13px;
     padding: 5% 3%;
   }
 
   .card-heading button {
-    padding: 10px 21px;
+    padding: 8px 21px;
   }
   .card-heading button::after {
     width: 14px;
     right: 4px;
-    top: 13px;
+    top: 11px;
   }
 
   .cards {
@@ -924,7 +924,7 @@ button.ham_burg_menu.active:after {
   }
   .global-ctn button::after {
     right: 8px;
-    top: 11px;
+    top: 20px;
   }
 
   .spotlight-card {
@@ -951,6 +951,7 @@ button.ham_burg_menu.active:after {
   }
 
   .spotlight-card p {
+    font-size: 14px;
     margin-top: 0px;
   }
   .spot {
