@@ -307,26 +307,28 @@
 }
 
 /********Rome container********/
-
+.rome-container {
+  position: relative;
+}
 .rome {
   display: flex;
   margin: 0 3%;
   margin-bottom: 3%;
   /* background-color: black; */
   /* object-fit: cover;  */
-  position: relative;
+  /* position: relative; */
 }
 
-.prev{
+.prev {
   position: absolute;
   width: 38px !important;
-  left: -3%;
+  left: 0%;
   top: 45%;
 }
-.next{
+.next {
   position: absolute;
   width: 38px !important;
-  right: -3%;
+  right: 0%;
   top: 45%;
 }
 .rome-left {
@@ -354,12 +356,11 @@
   width: 100%;
   object-fit: cover;
 }
-.rome-mid1{
+.rome-mid1 {
   position: relative;
 }
-.rome-right1{
+.rome-right1 {
   position: relative;
-
 }
 .rome-2nd {
   display: flex;
@@ -392,20 +393,19 @@
   font-size: 16px;
 }
 
-.rome-read1{
-  position: absolute;
-  right: 2%;
-  bottom: 5%;
-  width: 40px !important;
-  
-}
-.rome-read2{
+.rome-read1 {
   position: absolute;
   right: 2%;
   bottom: 5%;
   width: 40px !important;
 }
-.rome-read3{
+.rome-read2 {
+  position: absolute;
+  right: 2%;
+  bottom: 5%;
+  width: 40px !important;
+}
+.rome-read3 {
   position: absolute;
   right: 2%;
   bottom: 5%;
@@ -534,11 +534,11 @@
   margin: 0 5%;
 } */
 .spotlight-card {
-    display: flex;
-    margin-bottom: 3%;
-    /* gap: 0%; */
-    justify-content: space-evenly;
-    margin: 0 3% 3% 0%;
+  display: flex;
+  margin-bottom: 3%;
+  /* gap: 0%; */
+  justify-content: space-evenly;
+  margin: 0 3% 3% 0%;
 }
 .spot1 {
   width: 170px;
@@ -643,7 +643,6 @@
 }
 
 .social-icon img {
-  
   padding-right: 18px;
 }
 
@@ -709,7 +708,7 @@ footer {
   padding: 30px 0 30px 70px;
 }
 
-@media (min-width:400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 600px) {
   .header {
     background-color: #003564;
   }
@@ -736,6 +735,10 @@ footer {
   }
   .ham_burg_menu img {
     height: 48px;
+  }
+  .next,
+  .prev {
+    visibility: hidden;
   }
   .header_left {
     display: block;
@@ -897,7 +900,7 @@ footer {
   }
 
   .global {
-    background: url(img/sec4_bg_mob_backup.png) no-repeat;
+    background: url("img/sec4_bg_mob_backup.png") no-repeat;
     background-size: 100%;
     height: 45vh;
     margin-bottom: 3%;
@@ -956,7 +959,7 @@ footer {
 
   .spotlight-card p {
     margin-top: 0px;
-}
+  }
   .spot {
     justify-content: center;
     margin: 0%;
