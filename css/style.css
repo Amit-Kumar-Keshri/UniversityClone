@@ -307,14 +307,12 @@
 }
 
 .rome-container{
-  width: 95%;
   margin: 0 auto;
 }
 .rome {
   display: flex;
   margin: 0 3%;
   margin-bottom: 3%;
-  object-fit: cover;
 }
 
 .rome-left {
@@ -722,6 +720,15 @@ footer {
   .ham_burg_menu img {
     height: 48px;
   }
+  button.ham_burg_menu.active > img {
+  visibility: hidden;
+}
+
+button.ham_burg_menu.active:after {
+    content: url('../img/hamburger_closed.png');
+    color: #fff;
+    font-size: 40px;
+}
   .next,
   .prev {
     visibility: hidden;
@@ -729,7 +736,7 @@ footer {
   .header_left {
     display: block;
     float: right;
-    padding: 0 60px;
+    padding: 0 40px 0 0;
   }
   .header_right {
     display: block;

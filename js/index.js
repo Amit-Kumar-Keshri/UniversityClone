@@ -6,7 +6,13 @@ jQuery(document).ready(function () {
 });
 
 jQuery(document).on("click", ".ham_burg_menu", function () {
-  jQuery(".menu").slideToggle();
+  if(!jQuery(this).hasClass('active')){
+    jQuery(this).addClass('active');
+    jQuery(".menu").slideDown();
+  }else {
+    jQuery(this).removeClass("active");
+    jQuery(".menu").slideUp();
+  }
 });
 
 jQuery(window).resize(function () {
