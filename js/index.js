@@ -19,7 +19,7 @@ function mobile_menu_init() {
 
     if (!jQuery(".ham_burg_menu").length) {
       jQuery(".menu").before(
-        '<button class="ham_burg_menu"><img src="img/hamburger_opened.png"/></button>'
+        '<button class="ham_burg_menu"><img src="../img/hamburger_opened.png"/></button>'
       );
     }
   } else {
