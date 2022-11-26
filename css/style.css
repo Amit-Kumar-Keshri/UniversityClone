@@ -672,7 +672,9 @@
   background-color: transparent;
   border: 4px solid #5a5b5b;
 }
-
+.footer-btn button:hover {
+  opacity: 0.5;
+}
 .ctns {
   padding: 30px 40px;
 }
