@@ -826,6 +826,9 @@ footer {
   .home-bottom {
     left: 20%;
   }
+  .home-btn {
+    top: 42%;
+}
   .explore-container {
     background: url("../img/sec1_bg_mobile.png") no-repeat;
     background-size: auto 100%;
